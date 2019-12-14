@@ -8,5 +8,13 @@ public class Main {
         name = sc.next();
         System.out.println("Welcome " + name + " to java programming!");
 
+        // fun with numbers
+        System.out.print("enter first number");
+        int firstNumer = sc.nextInt();
+        System.out.print("enter second number");
+        int secondNumer = sc.nextInt();
+        int sum = firstNumer + secondNumer;
+        System.out.println(firstNumer + " + " + secondNumer + " = " + sum);
+
     }
 }
